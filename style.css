@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.vflowchart,
+.vfc-row,
+.vfc-cell {
+  /* border: 1px solid red; */
+}
+
+.vflowchart {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.vfc-row {
+  display: table-row;
+  width: 100%;
+}
+
+.vfc-cell {
+  display: inline-block;
+}
+
+.vfc-cell.col1 {
+  width: 20%;
+}
+
+.vfc-cell.col2 {
+  width: 40%;
+}
+
+.vfc-cell.col3 {
+  width: 60%;
+}
+
+.vfc-cell.col4 {
+  width: 80%;
+}
+
+.vfc-cell.col5 {
+  width: 100%;
+}
+
+.vfc-line {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.vfc-line.vertical {
+  width: 1px;
+  height: 30px;
+}
+
+.vfc-line.horizontal {
+  width: 100%;
+  height: 1px;
+}
+
+.vfc-line.horizontal.half{
+  /* width: 50%; */
+}
+
+.vfc-border {
+  border: 1px solid black;
+}
+
+.vfc-box {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 5px;
+}
